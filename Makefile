@@ -22,3 +22,9 @@ npm-install:
 
 npm-build-dev:
 	docker exec -it vite_docker npm run dev
+
+npm-run-storybook:
+	docker exec -it vite_docker npm run storybook
+
+npm-build-storybook:
+	docker exec -it vite_docker npm run build-storybook
